@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url("https://img.freepik.com/premium-vector/liver-disease-treatment-design-concept-with-tiny-people_7087-973.jpg?w=996");
+            /* Light yellow background */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: black;
+            /* Purple header */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+            /* Adjust for desired width */
+            animation: slide-in 1.5s;
+        }
+
+        .nav-buttons {
+            background-color: white;
+            /* Purple button background */
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .nav-buttons:hover {
+            background-color: lightblue;
+            /* Darker purple on hover */
+        }
+
+        .content {
+            padding: 20px;
+            animation: slide-in 1.5s;
+        }
+
+        .introduction {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            animation: slide-in 1.5s;
+        }
+
+        @keyframes slide-in {
+            from {
+                transform: translateX(100%);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Liver Patient Analysis</h1>
+
+    <div class="container">
+        <div>
+            <a href="/" class="nav-buttons">Home</a>
+        </div>
+        <div>
+            <a href="/pred" class="nav-buttons">Goto Predict</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="introduction">
+            <h2>Introduction</h2>
+            <p>Liver diseases averts the normal function of the liver. <br><br><br> Mainly due to the large amount of
+                alcohol
+                consumption liver disease arises. <br><br><br> Early prediction of liver disease using classification
+                algorithms
+                is
+                an efficacious task that can help the doctors to diagnose the disease within a short duration of time.
+                <br><br><br>
+                Discovering the existence of liver disease at an early stage is a complex task for the doctors.
+                <br><br><br>Themain
+                aim of this project is to predict the liver disease using classification algorithms.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
